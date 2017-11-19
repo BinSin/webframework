@@ -1,0 +1,11 @@
+package kr.ac.hansung.aop;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class Logger {
+
+	public void aboutToSound() {
+		System.out.println("before abvice: about to sound() ");
+	}
+}

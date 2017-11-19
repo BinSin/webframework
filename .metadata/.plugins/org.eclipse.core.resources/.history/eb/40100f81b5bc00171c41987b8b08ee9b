@@ -1,0 +1,16 @@
+package kr.ac.hansung.di;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import lombok.RequiredArgsConstructor;
+
+// @RequiredArgsConstructor
+public class PetOwner {
+
+	@Autowired
+	private final AnimalType animal;
+	
+	public void play() {
+		animal.sound();
+	}
+}

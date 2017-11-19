@@ -1,0 +1,10 @@
+package kr.ac.hansung.csemall;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class OfferDAO {
+
+	private JdbcTemplate  jdbcTemplate;
+	
+	
+}

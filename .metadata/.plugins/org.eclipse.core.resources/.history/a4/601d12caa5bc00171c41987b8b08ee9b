@@ -1,0 +1,12 @@
+package kr.ac.hansung.di;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		
+		new ClassPathXmlApplicationContext("/helloDI/src/main/java/kr/ac/hansung/di/conf/animal.xml");
+		
+	}
+}

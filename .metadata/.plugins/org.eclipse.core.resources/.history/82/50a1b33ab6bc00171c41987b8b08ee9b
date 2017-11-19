@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="id_dog" class="kr.ac.hansung.di.Dog">
+		<property name="myName" value="poodle"></property>
+		<qualifier value="if_dog"></qualifier>
+	</bean>
+
+	<bean id="id_cat" class="kr.ac.hansung.di.Cat">
+		<property name="myName" value="bella"></property>
+		<qualifier value="if_cat"></qualifier>
+	</bean>
+
+	<bean id="id_petOwner" class="kr.ac.hansung.di.PetOwner">
+		
+	</bean>
+	
+</beans>

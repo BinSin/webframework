@@ -1,0 +1,6 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/helloAOP/src/main/java/kr/ac/hansung/aop/conf/animal.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/helloAOP/src/main/java/kr/ac/hansung/spring/aop/conf/animal.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/helloDI/src/main/java/kr/ac/hansung/di/conf/animal.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/helloDI/src/main/java/kr/ac/hansung/spring/di/conf/animal.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/helloDI/src/main/java/kr/ac/hansung/spring/di/xmlconf/animal.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

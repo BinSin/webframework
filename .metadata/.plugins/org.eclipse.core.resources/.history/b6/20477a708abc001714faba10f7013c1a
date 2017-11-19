@@ -1,0 +1,14 @@
+package Service;
+
+import java.util.Map;
+
+import Model.Customer;
+
+public class CustomerService {
+
+	private Map<String, Customer> customerMap;
+	
+	public CustomerService() {
+		customerMap = new HashMap<String, ustomer>();
+	}	
+}

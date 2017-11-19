@@ -1,0 +1,8 @@
+package kr.ac.hansung.aop;
+
+public class Logger {
+
+	public void aboutToBound() {
+		System.out.println("before abvice: about to bound");
+	}
+}
