@@ -3,8 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
-	
+
 	<context:property-placeholder location="kr/ac/hansung/props/jdbc.properties" />
+	<!-- 이걸 해야 Annotation 기능 활성화 -->
+	<context:annotation-config></context:annotation-config>
 
 	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
 		destroy-method="close">
@@ -14,5 +16,6 @@
 		<property name="password" value="${jdbc.password}" />
 	</bean>
 
-
+	<!-- 이 패키지 스캔하여 해당되는 클래스를 빈으로 등록해준다.  -->
+	<context:component-scan base-package="kr.ac.hansung.csemall"></context:component-scan>
 </beans>
