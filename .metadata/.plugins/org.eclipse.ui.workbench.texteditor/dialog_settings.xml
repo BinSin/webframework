@@ -5,6 +5,9 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="docBas"/>
+			<item value="servlet"/>
+			<item value="CONTEXT"/>
 		</list>
 		<list key="replacehistory">
 		</list>

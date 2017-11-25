@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="helloDI"/>
 <aop-project name="helloDB"/>
+<aop-project name="helloDI"/>
 <aop-project name="helloAOP"/>
 <aop-project name="helloSpring"/>
+<aop-project name="helloSpringMVC"/>
 </aop-reference-model>

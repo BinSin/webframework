@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.formtable {
+	width: 400px;
+	/* 선 1px 색깔은 파랑 */
+	border: 1px solid blue;
+	/* 아래로 50씩 떨어짐  */
+	margin: 50px;
+	/* 오른쪽으로 10px 떨어짐 */
+	padding: 10px;
+}
+
+.label {
+	/* 오른쪽 정렬 */
+	text-align: right;
+	/* 위로 정렬 */
+	vertical-align: top;
+}
+
+.control {
+	margin-left: 10px;
+}
+
+.error {
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
+/* 모든 textarea에 적용 */
+textarea {
+	width: 300px;
+	height: 100px;
+}
+
+/* input type이 text인 것에 적용 */
+input[type=text] {
+	width: 300px;
+	border-width: 1px;
+	padding: 2px
+}
+
+input[type=submit] {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* 마우스 갖다 대면 색깔 변함 */
+input[type=submit]:hover {
+	background-color: #45a049;
+}

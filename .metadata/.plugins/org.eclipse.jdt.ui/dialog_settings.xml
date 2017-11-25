@@ -66,7 +66,7 @@
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="877" key="DIALOG_HEIGHT"/>
 		<item value="213" key="DIALOG_X_ORIGIN"/>
-		<item value="-5" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>
@@ -104,7 +104,7 @@
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="3" key="index"/>
+		<item value="7" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -112,7 +112,7 @@
 		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item value="3" key="pageIndex"/>
+		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
