@@ -33,11 +33,11 @@ public class OfferController {
 		
 		
 		model.addAttribute("offer", new Offer());
-		return "createoffers";
+		return "createoffer";
 	}
 	
-	@RequestMapping("/dooffer")
-	public String doOffers(Model model, @Valid Offer offer, BindingResult result) {
+	@RequestMapping("/docreate")
+	public String doCreate(Model model, @Valid Offer offer, BindingResult result) {
 		
 		if(result.hasErrors()) {
 			System.out.println("===Form Data does not validated");

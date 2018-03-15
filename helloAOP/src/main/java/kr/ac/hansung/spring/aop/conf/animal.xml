@@ -22,9 +22,9 @@
 	<bean id="id_petOwner" class="kr.ac.hansung.spring.aop.PetOwner">
 	</bean>
 
-	<bean id="id_logger" class="kr.ac.hansung.spring.aop.Logger">
+	<bean id="id_logger" class="kr.ac.hansung.spring.aop.Logger" >
 	</bean>
-	
+
 	<!-- <aop:config>
 		<aop:aspect ref="id_logger" id="myAspect">
 			<aop:pointcut id="selectSound"

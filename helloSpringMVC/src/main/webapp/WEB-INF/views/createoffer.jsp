@@ -18,7 +18,7 @@
 		<table class="formtable">
 			<tr> <td class="label">Name: </td> <td> <sf:input class="control" type="text" path="name" /> <br/>
 			<sf:errors path="name" class="error" /> </td></tr>
-			<tr> <td class="label">Eamil: </td> <td><sf:input class="control" type="text" path="email" /> <br/>
+			<tr> <td class="label">Email: </td> <td><sf:input class="control" type="text" path="email" /> <br/>
 			<sf:errors path="email" class="error" /> </td> </tr>
 			<tr> <td class="label">Offer: </td> <td><sf:textarea class="control" path="text" rows="10" cols="10" /> <br/>
 			<sf:errors path="text" class="error" /> </td> </tr>

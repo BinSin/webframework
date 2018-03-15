@@ -21,7 +21,8 @@ public class MainApp {
 			System.out.println(offer);
 		
 		Offer offer = new Offer();
-		offer.setName("nykim");
+
+		offer.setName("binbin");
 		offer.setEmail("www.hansung.ac.kr");
 		offer.setText("an instructor of spring framework");
 		// insert
@@ -31,8 +32,9 @@ public class MainApp {
 		else
 			System.out.println("Object insert failed");
 		
-		offer = offerDAO.getOffer("nykim");
-		offer.setName("Namyun Kim");
+		offer = offerDAO.getOffer("binbin");
+		offer.setName("binSin");
+		
 		// update
 		if(offerDAO.update(offer)) {
 			System.out.println("Object is updateed successfully");
@@ -40,7 +42,7 @@ public class MainApp {
 		else
 			System.out.println("Object update failed");
 		
-		offer = offerDAO.getOffer("Namyun Kim");
+		offer = offerDAO.getOffer("nykim");
 		System.out.println(offer);
 		
 		if(offerDAO.delete(offer.getId())) {
@@ -48,7 +50,7 @@ public class MainApp {
 		}
 		else
 			System.out.println("Object delete failed");
-		
+
 		
 		context.close();
 	}

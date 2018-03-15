@@ -9,7 +9,6 @@ import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import kr.ac.hansung.model.Offer;
@@ -33,7 +32,7 @@ public class OfferDAO {
 
 	// query and return a single object
 	public Offer getOffer(String name) {
-		String sqlStatement = "select * from offers where name=1";
+		String sqlStatement = "select * from offers where name=?";
 		return jdbcTemplate.queryForObject(sqlStatement, new Object[]{name}, 
 				new RowMapper<Offer>() {
 					public Offer mapRow(ResultSet rs, int rowNum) throws SQLException {
@@ -90,7 +89,7 @@ public class OfferDAO {
 		String email = offer.getEmail();
 		String text = offer.getText();
 		
-		String sqlStatement = "update offers set name=?, email=?, text=? where id=1";
+		String sqlStatement = "update offers set name=?, email=?, text=? where id=?";
 		
 		// 몇개가 업데이트 되었는지 리턴해 준다.
 		return (jdbcTemplate.update(sqlStatement, new Object[] {name, email, text, id}) == 1);
@@ -98,7 +97,7 @@ public class OfferDAO {
 	
 	public boolean delete(int id) {
 		
-		String sqlStatement = "delete from offers where id=1";
+		String sqlStatement = "delete from offers where id=?";
 
 		return (jdbcTemplate.update(sqlStatement, new Object[] {id}) == 1);
 	}

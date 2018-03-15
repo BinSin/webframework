@@ -7,7 +7,6 @@ public class Cat implements AnimalType {
 
 	private String myName;
 	
-	@Override
 	public void sound() {
 		System.out.println("Dog name = " + myName + ":" + "Meow");
 	}
