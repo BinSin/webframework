@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -45,10 +46,37 @@ public class AdminController {
 	public String addProductPost(Product product) {
 
 		if(!productService.addProduct(product))
-			System.out.println("AAdding product caanot be done");
+			System.out.println("Adding product caanot be done");
 		
 		return "redirect:/admin/productInventory";
 	}
 	
+	@RequestMapping(value="/productInventory/deleteProduct/{id}", method=RequestMethod.GET)
+	public String deleteProduct(@PathVariable int id) {
+		
+		if(!productService.deleteProduct(id))
+			System.out.println("Deleting product cannot be done");
+		
+		return "redirect:/admin/productInventory";
+	}
 	
+	@RequestMapping(value="/productInventory/updateProduct/{id}", method=RequestMethod.GET)
+	public String updateProduct(@PathVariable int id, Model model) {
+		
+		Product product = productService.getProductById(id);
+
+		model.addAttribute("product", product);
+		
+		return "updateProduct";
+	}
+	
+	@RequestMapping(value="/productInventory/updateProduct", method=RequestMethod.POST)
+	public String updateProductPost(Product product) {
+		
+		// product 내용 : Product(id=0, name=조깅화, ... ) 이렇게 객체가 toString으로 나온다.
+		if(!productService.updateProduct(product))
+			System.out.println("Update product caanot be done");
+		
+		return "redirect:/admin/productInventory";
+	}
 }

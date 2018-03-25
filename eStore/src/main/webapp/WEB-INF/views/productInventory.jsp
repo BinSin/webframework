@@ -2,7 +2,6 @@
 <%@ page session="false"%>
 <%@ page contentType="text/html; charset=utf-8"%>
 
-
 <div class="container-wrapper">
 	<div class="container">
 		<h2>Product Inventory</h2>
@@ -16,6 +15,8 @@
 					<th>Manufacture</th>
 					<th>UnitInStock</th>
 					<th>Description</th>
+					<th>   </th>
+					<th>   </th>
 				</tr>
 			</thead>
 			<tbody>
@@ -27,6 +28,8 @@
 						<td>${product.manufacture}</td>
 						<td>${product.unitInStock}</td>
 						<td>${product.description}</td>
+						<td><a href="<c:url value="/admin/productInventory/deleteProduct/${product.id}"/>"><i class="fa fa-times"></i></a></td>
+						<td><a href="<c:url value="/admin/productInventory/updateProduct/${product.id}"/>"><i class="far fa-edit"></i></a></td>
 					</tr>
 				</c:forEach>
 			</tbody>
