@@ -19,4 +19,9 @@ public class ProductService {
 		return productDao.getProduct();
 	}
 
+	public boolean addProduct(Product product) {
+		
+		return productDao.addProduct(product);
+	}
+
 }

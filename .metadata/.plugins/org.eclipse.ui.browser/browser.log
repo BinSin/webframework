@@ -376,3 +376,24 @@
 3월 25, 2018 21:07:15.53 [1020:11500:0325/210715.402:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
 3월 25, 2018 21:07:15.54 [1020:11500:0325/210715.402:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
 3월 25, 2018 21:07:15.65 [1020:11500:0325/210715.650:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3월 25, 2018 21:15:23.61 [1020:12228:0325/211523.619:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 21:15:23.77 [1020:12228:0325/211523.769:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 21:15:24.14 [1020:12228:0325/211524.145:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 21:15:24.58 [1020:12228:0325/211524.584:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 21:21:48.37 [1020:12228:0325/212148.376:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -105
+3월 25, 2018 22:52:09.61 [1020:12228:0325/225209.612:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -105
+3월 25, 2018 22:52:09.87 [1020:11500:0325/225209.874:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+3월 25, 2018 22:52:13.48 [1020:12228:0325/225213.482:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -21
+3월 25, 2018 22:52:15.70 [1020:12228:0325/225215.703:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -21
+3월 25, 2018 22:52:18.82 [1020:12228:0325/225218.822:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -21
+3월 25, 2018 22:52:21.89 [1020:12228:0325/225221.897:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -21
+3월 25, 2018 23:39:00.17 [1020:12228:0325/233900.171:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 23:39:00.26 [1020:12228:0325/233900.263:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 23:39:00.44 [1020:12228:0325/233900.444:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 25, 2018 23:39:00.89 [1020:12228:0325/233900.890:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 26, 2018 01:12:05.80 [1020:12228:0326/011205.804:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -105
+3월 26, 2018 01:12:13.27 [1020:12228:0326/011213.273:ERROR:connection_factory_impl.cc(379)] Failed to connect to MCS endpoint with error -21
+3월 26, 2018 02:06:07.82 [1020:12228:0326/020607.822:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 26, 2018 02:06:07.93 [1020:12228:0326/020607.930:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 26, 2018 02:06:08.08 [1020:12228:0326/020608.088:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+3월 26, 2018 02:06:08.42 [1020:12228:0326/020608.427:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
