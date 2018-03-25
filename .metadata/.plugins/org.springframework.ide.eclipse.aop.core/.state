@@ -3,6 +3,7 @@
 <aop-project name="helloDB"/>
 <aop-project name="helloDI"/>
 <aop-project name="helloAOP"/>
+<aop-project name="eStore"/>
 <aop-project name="helloSpring"/>
 <aop-project name="helloSpringMVC"/>
 </aop-reference-model>

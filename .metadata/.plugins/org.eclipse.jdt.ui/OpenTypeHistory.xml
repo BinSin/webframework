@@ -2,4 +2,6 @@
 <typeInfoHistroy>
 <typeInfo handle="=helloDI/src\/main\/java&lt;kr.ac.hansung.di{AnimalType.java[AnimalType" modifiers="513" timestamp="1509280019847"/>
 <typeInfo handle="=helloDB/src\/main\/java&lt;kr.ac.hansung.csemall{OfferDAO.java[OfferDAO" modifiers="1" timestamp="1511943975436"/>
+<typeInfo handle="=eStore/C:\/Users\/yongm\/.m2\/repository\/org\/springframework\/spring-webmvc\/4.3.12.RELEASE\/spring-webmvc-4.3.12.RELEASE.jar&lt;org.springframework.web.servlet.view.tiles3(TilesViewResolver.class[TilesViewResolver" modifiers="33" timestamp="1511514684472"/>
+<typeInfo handle="=eStore/C:\/Users\/yongm\/.m2\/repository\/org\/springframework\/spring-webmvc\/4.3.12.RELEASE\/spring-webmvc-4.3.12.RELEASE.jar&lt;org.springframework.web.servlet.view.tiles3(TilesConfigurer.class[TilesConfigurer" modifiers="33" timestamp="1511514684472"/>
 </typeInfoHistroy>

@@ -230,3 +230,63 @@
 3월 11, 2018 10:10:19.71 NEW SESSION
 3월 11, 2018 10:10:19.71 
 3월 11, 2018 10:10:19.71 KLIB_SelfTest return : KLR_OK
+
+3월 25, 2018 19:17:58.80 NEW SESSION
+3월 25, 2018 19:17:58.80 [8472:10836:0325/191758.798:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+3월 25, 2018 19:18:00.90 [8472:6632:0325/191800.902:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3월 25, 2018 20:33:30.32 
+3월 25, 2018 20:33:30.32 KLIB_SelfTest return : KLR_OK
+3월 25, 2018 20:33:58.86 [2156:9348:0325/203358.866:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+3월 25, 2018 20:34:01.06 [2156:8724:0325/203401.061:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.07 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.08 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.09 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.09 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.10 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.12 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.13 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.15 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.17 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.19 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.22 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.23 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.25 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.27 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.28 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.29 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.30 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.32 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.33 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.35 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.37 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.39 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.42 [2156:8724:0325/203401.062:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:34:01.60 [2156:8724:0325/203401.607:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
+3월 25, 2018 20:35:23.05 
+3월 25, 2018 20:35:23.07 KLIB_SelfTest return : KLR_OK
+3월 25, 2018 20:35:41.01 [3068:10528:0325/203541.016:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+3월 25, 2018 20:35:42.98 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:42.98 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:42.99 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:42.99 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.01 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.02 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.02 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.03 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.04 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.05 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.06 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.06 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.07 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.08 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.09 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.09 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.11 [3068:12784:0325/203542.982:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.11 [3068:12784:0325/203543.001:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.12 [3068:12784:0325/203543.001:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.13 [3068:12784:0325/203543.002:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.14 [3068:12784:0325/203543.002:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.14 [3068:12784:0325/203543.002:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.15 [3068:12784:0325/203543.002:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.16 [3068:12784:0325/203543.002:ERROR:in_progress_cache_impl.cc(189)] Cache is not initialized, cannot RetrieveEntry.
+3월 25, 2018 20:35:43.23 [3068:12784:0325/203543.233:ERROR:gpu_process_transport_factory.cc(1019)] Lost UI shared context.
