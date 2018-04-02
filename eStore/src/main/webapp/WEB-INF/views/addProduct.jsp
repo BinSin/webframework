@@ -17,6 +17,7 @@
 			<div class="form-group">
 				<label for="name">Name</label>
 				<sf:input path="name" id="name" class="form-control" />
+				<sf:errors path="name" cssStyle="color:#ff0000;" />
 			</div>
 			
 			<div class="form-group">
@@ -34,16 +35,19 @@
 			<div class="form-group">
 				<label for="price">Price</label>
 				<sf:textarea path="price" id="price" class="form-control" />
+				<sf:errors path="price" cssStyle="color:#ff0000;" />
 			</div>
 		
 			<div class="form-group">
 				<label for="unitInStock">UnitInStock</label>
 				<sf:textarea path="unitInStock" id="unitInStock" class="form-control" />
+				<sf:errors path="unitInStock" cssStyle="color:#ff0000;" />
 			</div>
 			
 			<div class="form-group">
 				<label for="manufacture">Manufacture</label>
 				<sf:textarea path="manufacture" id="manufacture" class="form-control" />
+				<sf:errors path="manufacture" cssStyle="color:#ff0000;" />
 			</div>
 			
 			<input type="submit" value="submit" class="btn btn-default">

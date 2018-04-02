@@ -8,7 +8,8 @@
 		<h1>Update Product</h1>
 		<p class="lead">Fill the below information to update a product:</p>
 		
-		<!-- spring form을 사용해서 각각의 필드에 매핑이 되어 들어간다.  -->
+		<!-- spring form을 사용해서 각각의 필드에 매핑이 되어 들어간다. -->
+		<!-- server의 내용을 spring form tag를 이용하여 client에 보여줄 수 있다. -->
 		<sf:form action="${pageContext.request.contextPath}/admin/productInventory/updateProduct" 
 			method="post" modelAttribute="product">
 			
@@ -18,6 +19,7 @@
 			<div class="form-group">
 				<label for="name">Name</label>
 				<sf:input path="name" id="name" class="form-control" />
+				<sf:errors path="name" cssStyle="color:#ff0000;" />
 			</div>
 			
 			<div class="form-group">
@@ -35,16 +37,19 @@
 			<div class="form-group">
 				<label for="price">Price</label>
 				<sf:textarea path="price" id="price" class="form-control" />
+				<sf:errors path="price" cssStyle="color:#ff0000;" />
 			</div>
 		
 			<div class="form-group">
 				<label for="unitInStock">UnitInStock</label>
 				<sf:textarea path="unitInStock" id="unitInStock" class="form-control" />
+				<sf:errors path="unitInStock" cssStyle="color:#ff0000;" />
 			</div>
 			
 			<div class="form-group">
 				<label for="manufacture">Manufacture</label>
 				<sf:textarea path="manufacture" id="manufacture" class="form-control" />
+				<sf:errors path="manufacture" cssStyle="color:#ff0000;" />
 			</div>
 			
 			<input type="submit" value="submit" class="btn btn-default">
