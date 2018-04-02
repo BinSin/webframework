@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;homework1/WebContent/loginform.jsp&apos; to &apos;index.jsp&apos;" description="Rename resource &apos;loginform.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/loginform.jsp" name="index.jsp" stamp="1509333135416" updateReferences="true"/>
-</session>
