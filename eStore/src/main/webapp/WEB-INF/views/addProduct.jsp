@@ -4,7 +4,7 @@
     pageEncoding="UTF-8"%>
     
 <%-- client web form -> (filter, utf-8) -> dispatcher -> controller -> service -> dao -> db --%>
-<%-- 여기서 filter에서 한글깨짐 방지 설정 해줘야 한다 --%>
+<%--          여기서 filter에서 한글깨짐 방지 설정 해줘야 한다 --%>
 
 <div class="container-wrapper">
 	<div class="container">

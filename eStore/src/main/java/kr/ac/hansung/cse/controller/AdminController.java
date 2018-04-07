@@ -61,7 +61,7 @@ public class AdminController {
 		}
 		
 		if(!productService.addProduct(product))
-			System.out.println("Adding product caanot be done");
+			System.out.println("Adding product cannot be done");
 		
 		return "redirect:/admin/productInventory";
 	}
