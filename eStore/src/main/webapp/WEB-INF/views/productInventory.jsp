@@ -17,6 +17,7 @@
 					<th>Description</th>
 					<th>   </th>
 					<th>   </th>
+					<th>   </th>
 				</tr>
 			</thead>
 			<tbody>
@@ -28,6 +29,7 @@
 						<td>${product.manufacture}</td>
 						<td>${product.unitInStock}</td>
 						<td>${product.description}</td>
+						<td><a href="<c:url value="/productInventory/viewProduct/${product.id}"/>"><i class="fa fa-info-circle"></i></a></td>
 						<td><a href="<c:url value="/admin/productInventory/deleteProduct/${product.id}"/>"><i class="fa fa-times"></i></a></td>
 						<td><a href="<c:url value="/admin/productInventory/updateProduct/${product.id}"/>"><i class="far fa-edit"></i></a></td>
 					</tr>

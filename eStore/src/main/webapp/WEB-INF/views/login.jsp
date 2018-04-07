@@ -18,7 +18,7 @@
 			<div style="color:#ff0000"> <h2> ${errorMsg} </h2> </div>
 		</c:if>
 		
-				<c:if test="${not empty logoutMsg}">
+		<c:if test="${not empty logoutMsg}">
 			<div style="color:#0000ff"> <h2> ${logoutMsg} </h2> </div>
 		</c:if>
 		
