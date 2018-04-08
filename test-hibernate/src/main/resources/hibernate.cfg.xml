@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+        
+<hibernate-configuration>
+    <session-factory>
+    
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">csedbadmin</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/testdb</property>
+
+		<property name="show_sql">true</property>
+		<property name="format_sql">false</property>
+		<property name="hibernate.htm2ddl.auto">create</property>
+		
+
+		<mapping resource="testHibernate/Product.java" />
+		
+	</session-factory>
+</hibernate-configuration>
+<!-- 에플리케이션 실행 시킬 때마다 새롭게 테이블 생성 -->
+<!-- 데이터 베이스는 여기서 설정한 매핑 정보를 보고 테이블을 생성한다. -->
