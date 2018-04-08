@@ -12,6 +12,8 @@ local.properties
 .settings/
 .loadpath
 
+Test.java
+
 # External tool builders
 .externalToolBuilders/
 
