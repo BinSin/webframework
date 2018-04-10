@@ -17,17 +17,38 @@ public class testMain {
 		sessionFactory = conf.buildSessionFactory();
 		*/
 		
+		Category category1 = new Category();
+		category1.setName("Computer");
+		
+		Category category2 = new Category();
+		category2.setName("Car");
+		
 		sessionFactory = new Configuration().configure().buildSessionFactory();
 		
-		Product product = new Product();
-		product.setName("notebook");
-		product.setPrice(2000);
-		product.setDescription("Awesome notebook!!!");
+		Product product1 = new Product();
+		product1.setName("notebook");
+		product1.setPrice(2000);
+		product1.setDescription("Awesome notebook!!!");
+		product1.setCategory(category1);
+		
+		Product product2 = new Product();
+		product2.setName("Desktop");
+		product2.setPrice(2000000);
+		product2.setDescription("Powerful Desktop!!");
+		product2.setCategory(category1);
+		
+		Product product3 = new Product();
+		product3.setName("Sonata");
+		product3.setPrice(10000000);
+		product3.setDescription("대중적인 자동차!!!");
+		product3.setCategory(category2);
 		
 		Session session = sessionFactory.openSession(); // 세션 만들고
 		Transaction tx = session.beginTransaction(); // 트렌젝션 만듬
 		
-		session.save(product);
+		session.save(product1);
+		session.save(product2);
+		session.save(product3);
 		
 		tx.commit();
 		session.close();
