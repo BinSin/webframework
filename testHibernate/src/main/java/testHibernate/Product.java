@@ -29,7 +29,8 @@ public class Product {
 	
 	private String description;
 	
-	@ManyToOne(cascade=CascadeType.ALL) // persist, delete 시에 이것도 함께 이루어짐 -> product 설정 시 category도 설정된다.
+	//@ManyToOne(cascade=CascadeType.ALL) // persist, delete 시에 이것도 함께 이루어짐 -> product 설정 시 category도 설정된다.
+	@ManyToOne
 	@JoinColumn(name="category_id") // category를 가리키는 reference -> foreign key
 	private Category category;
 }
