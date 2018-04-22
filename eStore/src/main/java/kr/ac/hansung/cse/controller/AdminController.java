@@ -60,8 +60,7 @@ public class AdminController {
 			return "addProduct";
 		}
 		
-		if(!productService.addProduct(product))
-			System.out.println("Adding product cannot be done");
+		productService.addProduct(product);
 		
 		return "redirect:/admin/productInventory";
 	}
@@ -69,8 +68,9 @@ public class AdminController {
 	@RequestMapping(value="/productInventory/deleteProduct/{id}", method=RequestMethod.GET)
 	public String deleteProduct(@PathVariable int id) {
 		
-		if(!productService.deleteProduct(id))
-			System.out.println("Deleting product cannot be done");
+		Product product = productService.getProductById(id);
+		
+		productService.deleteProduct(product);
 		
 		return "redirect:/admin/productInventory";
 	}
@@ -95,12 +95,11 @@ public class AdminController {
 			for(ObjectError error:errors) {
 				System.out.println(error.getDefaultMessage());
 			}
-			return "addProduct";
+			return "updateProduct";
 		}
 		
 		// product 내용 : Product(id=0, name=조깅화, ... ) 이렇게 객체가 toString으로 나온다.
-		if(!productService.updateProduct(product))
-			System.out.println("Update product caanot be done");
+		productService.updateProduct(product);
 		
 		return "redirect:/admin/productInventory";
 	}
