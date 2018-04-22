@@ -25,7 +25,7 @@ public class ProductDao {
 		return product;
 	}
 	
-	@SuppressWarnings({ "unchecked", "rawtypes" }) // List Type을 return 해야 하는데 타입이 달라 warning이 뜬다. 
+	@SuppressWarnings("unchecked") // List Type을 return 해야 하는데 타입이 달라 warning이 뜬다. 
 	public List<Product> getProducts() {
 		Session session = sessionFactory.getCurrentSession();
 		Query query = session.createQuery("from Product");
@@ -35,20 +35,26 @@ public class ProductDao {
 	}
 
 	public void addProduct(Product product) {
+
 		Session session = sessionFactory.getCurrentSession();
 		session.saveOrUpdate(product);
 		session.flush();
+
 	}
 
 	public void deleteProduct(Product product) {
+
 		Session session = sessionFactory.getCurrentSession();
 		session.delete(product);
 		session.flush();
+
 	}
 
 	public void updateProduct(Product product) {
+
 		Session session = sessionFactory.getCurrentSession();
 		session.saveOrUpdate(product);
 		session.flush();
+
 	}
 }
