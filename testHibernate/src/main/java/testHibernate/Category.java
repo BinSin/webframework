@@ -15,7 +15,7 @@ public class Category {
 
 	@Id
 	@GeneratedValue
-	@Column(name="product_id")
+	@Column(name="category_id")
 	private int id;
 	
 	private String name;

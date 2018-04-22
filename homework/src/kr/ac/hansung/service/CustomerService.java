@@ -1,9 +1,9 @@
-package service;
+package kr.ac.hansung.service;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import model.Customer;
+import kr.ac.hansung.model.Customer;
 
 public class CustomerService {
 

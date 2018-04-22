@@ -1,4 +1,4 @@
-package controller;
+package kr.ac.hansung.controller;
 
 import java.io.IOException;
 
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import model.Customer;
-import service.CustomerService;
+import kr.ac.hansung.model.Customer;
+import kr.ac.hansung.service.CustomerService;
 
 @WebServlet("/doLogin")
 public class DoLogin extends HttpServlet {
