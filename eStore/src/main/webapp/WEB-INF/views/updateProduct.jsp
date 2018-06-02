@@ -10,8 +10,8 @@
 		
 		<!-- spring form을 사용해서 각각의 필드에 매핑이 되어 들어간다. -->
 		<!-- server의 내용을 spring form tag를 이용하여 client에 보여줄 수 있다. -->
-		<sf:form action="${pageContext.request.contextPath}/admin/productInventory/updateProduct" 
-			method="post" modelAttribute="product">
+		<sf:form action="${pageContext.request.contextPath}/admin/productInventory/updateProduct?${_csrf.parameterName}=${_csrf.token}" 
+			method="post" modelAttribute="product" enctype="multipart/form-data">
 			
 			<!-- 이것을 넣어야 product에 있는 id 값도 같이 나오게 된다. -->
 			<sf:hidden path="id"/>
@@ -50,6 +50,11 @@
 				<label for="manufacture">Manufacture</label>
 				<sf:textarea path="manufacture" id="manufacture" class="form-control" />
 				<sf:errors path="manufacture" cssStyle="color:#ff0000;" />
+			</div>
+			
+			<div class="form-group">
+				<label for="productImage">Upload Picture</label>
+				<sf:input path="productImage" id="productImage" type="file" class="form-control" />
 			</div>
 			
 			<input type="submit" value="submit" class="btn btn-default">
