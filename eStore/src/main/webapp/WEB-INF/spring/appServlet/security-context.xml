@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sec="http://www.springframework.org/schema/security"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:sec="http://www.springframework.org/schema/security"
 	xsi:schemaLocation="http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-4.2.xsd
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
@@ -8,7 +9,9 @@
 		<sec:authentication-provider>
 			<sec:jdbc-user-service data-source-ref="dataSource"
 				users-by-username-query="select username, password, enabled from users where username=?"
-				authorities-by-username-query="select username, authority from authorities where username=?" />
+				authorities-by-username-query="select username, authority from users where username=?" />
+				<!-- password encoding 시 ref 를 참고하여 인코딩 한다. -->
+			<sec:password-encoder ref="passwordEncoder"></sec:password-encoder>
 		</sec:authentication-provider>
 	</sec:authentication-manager>
 
@@ -19,4 +22,8 @@
 			authentication-failure-url="/login?error=1" />
 	</sec:http>
 
+	<bean
+		class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"
+		id="passwordEncoder">
+	</bean>
 </beans>

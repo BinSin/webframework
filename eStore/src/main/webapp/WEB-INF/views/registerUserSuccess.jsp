@@ -6,7 +6,7 @@
 
 	<div class="container">
 		<section>
-			<div class="jumpbotron">
+			<div class="jumbotron">
 				<h1> User registered successfully!</h1>
 			</div>
 		</section>

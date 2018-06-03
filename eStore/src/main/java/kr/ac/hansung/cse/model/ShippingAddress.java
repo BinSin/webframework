@@ -18,7 +18,7 @@ public class ShippingAddress {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="shippingAddress")
+	@Column(name="shippingAddressId")
 	private int id;
 	
 	private String address;
