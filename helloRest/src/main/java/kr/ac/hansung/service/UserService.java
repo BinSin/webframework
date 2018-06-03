@@ -73,7 +73,7 @@ public class UserService {
 	}
 	
 	
-	public void eleteAllUsers() {
+	public void deleteAllUsers() {
 		users.clear();
 	}
 	
