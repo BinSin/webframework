@@ -2,13 +2,10 @@ package kr.ac.hansung.controller;
 
 import java.util.List;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import kr.ac.hansung.exception.ErrorResponse;
 import kr.ac.hansung.exception.UserDuplicatedException;
 import kr.ac.hansung.exception.UserNotFoundException;
 import kr.ac.hansung.model.User;
@@ -114,36 +110,6 @@ public class RestAPIController {
 			
 		userService.deleteAllUsers();
 		return new ResponseEntity<User>(HttpStatus.NO_CONTENT);
-	}
-	
-	@ExceptionHandler(UserNotFoundException.class)
-	public ResponseEntity<ErrorResponse> 
-		handleUserNotFoundException(HttpServletRequest req, UserNotFoundException ex) {
-	
-		String requestURL = req.getRequestURL().toString();
-		
-		ErrorResponse errorResponse = new ErrorResponse();
-		errorResponse.setRequestURL(requestURL);
-		errorResponse.setErrorCode("user.notfound.exception");
-		errorResponse.setErrorMsg("User with id " + ex.getUserId() + " not found");
-		
-		return new ResponseEntity<ErrorResponse>(errorResponse, HttpStatus.NOT_FOUND);
-		
-	}
-	
-	@ExceptionHandler(UserDuplicatedException.class)
-	public ResponseEntity<ErrorResponse> 
-		handleUserDuplicatedException(HttpServletRequest req, UserDuplicatedException ex) {
-	
-		String requestURL = req.getRequestURL().toString();
-		
-		ErrorResponse errorResponse = new ErrorResponse();
-		errorResponse.setRequestURL(requestURL);
-		errorResponse.setErrorCode("user.duplicated.exception");
-		errorResponse.setErrorMsg("Unable to create. A user with name" + ex.getUsername() + " already exist");
-		
-		return new ResponseEntity<ErrorResponse>(errorResponse, HttpStatus.CONFLICT);
-		
 	}
 	
 }
