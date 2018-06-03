@@ -39,7 +39,7 @@ public class UserDao {
 		Session session = sessionFactory.getCurrentSession();
 		TypedQuery<User> query = session.createQuery("from User where username = ?");
 		query.setParameter(0, username);
-			
+		
 		return query.getSingleResult();
 	}
 	
@@ -51,8 +51,6 @@ public class UserDao {
 			
 		return userList;
 	}
-	
-	
 	
 }
 
