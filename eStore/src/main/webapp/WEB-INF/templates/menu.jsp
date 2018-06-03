@@ -45,7 +45,7 @@
 					<li class="nav-item"><a class="nav-link"
 						href="<c:url value="/login"/>"> Login </a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="<c:url value="/login"/>"> Register </a></li>
+						href="<c:url value="/register"/>"> Register </a></li>
 				</c:if>
 
 			</ul>
